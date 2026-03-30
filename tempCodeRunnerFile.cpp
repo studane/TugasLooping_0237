@@ -20,7 +20,7 @@ void inputAngka(){
 bool cekPrima(int x){
     if (x <= 1)
         return false;
-    
+    }
 
     int i = 2;
     while (i < x){
@@ -30,7 +30,7 @@ bool cekPrima(int x){
         i++;
     }
     return true;
-}
+
 bool cekFibonacci(int x){
     int a = 0, b = 1, c;
     while (a <= x){
