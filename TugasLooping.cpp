@@ -63,4 +63,6 @@ void hasilFibonacci() {
 
 int main() {
     while (true) 
+        tampilMenu();
+        cin >> pilihan;
 }
