@@ -30,3 +30,6 @@ int i = 2;
         i++;
     }
     return true;
+
+bool cekFibonacci(int x) {
+}
