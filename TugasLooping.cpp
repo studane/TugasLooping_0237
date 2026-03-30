@@ -31,5 +31,6 @@ int i = 2;
     }
     return true;
 
-bool cekFibonacci(int x) {
+bool cekFibonacci(int x){
+    int a = 0, b = 1, c;
 }
