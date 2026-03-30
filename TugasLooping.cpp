@@ -52,3 +52,14 @@ void hasilPrima() {
         cout << n << " bukan bilangan prima.\n";
     }
 }
+
+void hasilFibonacci() {
+    if (cekFibonacci(n)) {
+        cout << n << " termasuk dalam deret Fibonacci.\n";
+    } else {
+        cout << n << " bukan bilangan Fibonacci.\n";
+    }
+}
+
+int main() {
+}
