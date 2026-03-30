@@ -16,3 +16,8 @@ void inputAngka() {
     cout << "Masukkan sebuah bilangan: ";
     cin >> n;
 }
+
+bool cekPrima(int x) {
+    if (x <= 1)
+        return false;
+    }
