@@ -11,3 +11,8 @@ void tampilMenu() {
     cout << "0. Keluar\n";
     cout << "Pilih menu: ";
 }
+
+void inputAngka() {
+    cout << "Masukkan sebuah bilangan: ";
+    cin >> n;
+}
