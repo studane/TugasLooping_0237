@@ -18,28 +18,28 @@ void inputAngka(){
 }
 
 bool cekPrima(int x){
-    if (x <= 1)
+    if (x<=1)
         return false;
-    }
+    
 
-    int i = 2;
-    while (i < x){
-        if (x % i == 0){
+    int i=2;
+    while (i<x){
+        if (x%i==0){
             return false;
         }
         i++;
     }
     return true;
-
+}
 bool cekFibonacci(int x){
-    int a = 0, b = 1, c;
-    while (a <= x){
-        if (a == x){
+    int a=0,b=1,c;
+    while (a<=x){
+        if (a==x){
             return true;
         }
-        c = a + b;
-        a = b;
-        b = c;
+        c=a+b;
+        a=b;
+        b=c;
     }
 
     return false;
@@ -47,26 +47,26 @@ bool cekFibonacci(int x){
 
 void hasilPrima() {
     if (cekPrima(n)) {
-        cout <<n<< " adalah bilangan prima.\n";
+        cout<<n<<" adalah bilangan prima.\n";
     } else {
-        cout <<n<< " bukan bilangan prima.\n";
+        cout<<n<<" bukan bilangan prima.\n";
     }
 }
 
 void hasilFibonacci() {
     if (cekFibonacci(n)) {
-        cout << n << " termasuk dalam deret Fibonacci.\n";
+        cout<<n<<" termasuk dalam deret Fibonacci.\n";
     } else {
-        cout << n << " bukan bilangan Fibonacci.\n";
+        cout<<n<<" bukan bilangan Fibonacci.\n";
     }
 }
 
 int main(){
-    while (true){
+    while(true){
         tampilMenu();
-        cin >> pilihan;
+        cin>>pilihan;
 
-        switch (pilihan){
+        switch(pilihan){
             case 1:
                 inputAngka();
                 hasilPrima();
@@ -78,11 +78,11 @@ int main(){
                 break;
 
             case 0:
-                cout << "Program selesai.\n";
+                cout<<"Program selesai.\n";
                 return 0;
 
             default:
-                cout << "Pilihan tidak valid.\n";
+                cout<<"Pilihan tidak valid.\n";
         }
     }
 
