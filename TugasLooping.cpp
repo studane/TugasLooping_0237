@@ -61,8 +61,10 @@ void hasilFibonacci() {
     }
 }
 
-int main() {
-    while (true) 
+int main(){
+    while (true){
         tampilMenu();
         cin >> pilihan;
+
+        switch (pilihan){
 }
